@@ -4,20 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Youtube</title>
+  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="header"></div>
+  <div class="header">
+    <div id="toggle">
+    <div class="toggle-btn" onclick="show()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  </div>
   <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
   <label for="openSidebarMenu" class="sidebarIconToggle">
-    <div class="spinner diagonal part-1"></div>
-    <div class="spinner horizontal"></div>
-    <div class="spinner diagonal part-2"></div>
+   
+ 
   </label>
 
-  <div id="sidebarMenu">
-    <ul class="sidebarMenuInner">
+  <div id="sidebar">
+    <ul>
       <li><a href="#"></a><span>Home</span></li>
       <li><a href="#"></a><span>Trending</span></li>
       <li><a href="#"></a><span>Subscription</span></li>

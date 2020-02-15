@@ -3,7 +3,7 @@ body{
     background: white;
     padding: 0;
     margin: 0;
-    font-family: tahoma;
+    font-family: Roboto;
 }
 
 .header{
@@ -12,124 +12,46 @@ body{
     width: 100%;
     max-width: 100%;
     box-shadow: none;
-    background-color: rgb(153, 142, 153);
+    background-color: rgb(245, 237, 245);
     position: fixed;
     height: 60px !important;
     overflow: hidden;
     z-index: 10;
 
 }
-
-.main{
-    margin: 0 auto;
-    display: block;
-    height: 100%;
-    margin-top: 60px;
+#sidebar {
+    position: absolute;
+    width: 203px;
+    height: 700px;
+    background: rgb(248, 243, 243);
+    left: -300px;
+    
+   
 }
 
-.mainInner {
-    display: table;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-#sidebarMenu {
-    height: 100%;
-    position: fixed;
+#sidebar.active {
     left: 0;
-    width: 250px;
-    margin-top: 60px;
-    transform: translateX(-250);
-    transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #424141 0%, #666666 100%);
 }
 
-.sidebarMenuInner {
-    margin: 0;
-    padding: 0;
-    border-top: 1px solid rgba(255,255,255,0.10);
-}
-
-.sidebarMenuInner li{
+#sidebar ul li{
     list-style: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    padding: 20px;
-    cursor: pointer;
-    border-bottom: 1px solid rgba(255,255,255,0.10);
+    color: black;
+    font-size: 20px;
+    padding: 20px 24px;
 }
 
-.sidebarMenuInner li span{
+#toggle .toggle-btn {
+    position: absolute;
+    top: 17px;
+    left: 18px;
+
+}
+
+.toggle-btn span {
+    width: 45px;
+    height: 4px;
+    background: #000;
     display: block;
-    font-size: 14px;
-    color: rgba(255,255,255,0.50);
+    margin-top: 4px;
+    
 }
-
-.sidebarMenuInner li a {
-    text-emphasis-color: white;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-
-}
-
-input[type="checkbox"]:checked ~ #sidebarMenu{
-    transform: translateX(0);
-
-}
-input[type=checkbox]{
-    transition: all 0.3s;
-    box-sizing: border-box;
-    display: none;
-}
-
-.sidebarIconToggle{
-    transition: all 0.3s;
-    box-sizing: border-box;
-    cursor: pointer;
-    position: absolute;
-    z-index: 99;
-    height: 100%;
-    width: 100%;
-    top: 22px;
-    left: 15px;
-    height: 22px;
-    width: 22px;
-
-}
-
-.spinner {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    position: absolute;
-    height: 3px;
-    width: 100px;
-    background-color: white;
-}
-
-.horizontal{
-    transition: all 0.3s;
-    box-sizing: border-box;
-    position: relative;
-    float: left;
-    margin-top: 3px;
-    width: 30px;
-
-}
-.diagonal.part-1{
-    position: relative;
-    transition: all 0.3s;
-    box-sizing: border-box;
-    float: left;
-    width: 30px;
-}
-.diagonal.part-2{
-    position: relative;
-    transition: all 0.3s;
-    box-sizing: border-box;
-    float: left;
-    margin-top: 3px;
-    width: 30px;
-}
-
-
