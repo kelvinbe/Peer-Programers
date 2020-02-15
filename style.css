@@ -48,8 +48,8 @@ body{
 }
 
 .toggle-btn span {
-    width: 45px;
-    height: 4px;
+    width: 25px;
+    height: 2px;
     background: #000;
     display: block;
     margin-top: 4px;
