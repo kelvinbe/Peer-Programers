@@ -9,7 +9,7 @@ body{
 }
 
 .header{
-    display: block;
+    display: flex;
     margin: 0 auto;
     width: 100%;
     max-width: 100%;
@@ -19,6 +19,7 @@ body{
     height: 60px !important;
     overflow: hidden;
     z-index: 10;
+    justify-content: space-around;
 
 }
 #sidebar {
@@ -77,8 +78,9 @@ body{
   
   form.example button {
     float: left;
-    width: 9%;
-    padding: 5px;
+    width: 1%;
+    height: 32px;
+    padding-left: 24px;
     background: #d6caca;
     color: white;
     font-size: 17px;
@@ -99,10 +101,12 @@ body{
   }
 
 
-  endIcons {
+  .endIcons {
    
-    height: 32px;
-    margin-top: 20px;
+    
+    margin-top: 25px;
+    padding-left: 400px;
+    font-size: 30px;
   }
 
 
