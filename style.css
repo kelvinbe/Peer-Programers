@@ -13,7 +13,7 @@ body{
     margin: 0 auto;
     width: 100%;
     max-width: 100%;
-    box-shadow: none;
+    box-shadow: inset;
     background-color: rgb(245, 237, 245);
     position: fixed;
     height: 60px !important;
@@ -109,4 +109,10 @@ body{
     font-size: 30px;
   }
 
+.youTube-logo{
+    padding-left: 56px;
+    margin-top: 19px;
+    font-size: 20px;
+    color: red
+}
 
