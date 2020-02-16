@@ -1,9 +1,11 @@
 
+
 body{
     background: white;
     padding: 0;
     margin: 0;
     font-family: Roboto;
+    
 }
 
 .header{
@@ -55,3 +57,52 @@ body{
     margin-top: 4px;
     
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 37%;
+    background: #f1f1f1;
+    margin-top: 20px;
+    margin-left: 375px;
+    height: 32px;
+}
+  
+  
+  form.example button {
+    float: left;
+    width: 9%;
+    padding: 5px;
+    background: #d6caca;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  form.example button:hover {
+    background: #b8b7b7;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  endIcons {
+   
+    height: 32px;
+    margin-top: 20px;
+  }
+
+
