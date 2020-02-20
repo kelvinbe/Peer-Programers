@@ -22,8 +22,6 @@ body{
 }
 #sidebar {
     position: absolute;
-    width: 203px;
-    height: 700px;
     background: white;
     left: -300px;
     
