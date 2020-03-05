@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vcontainer{
+    border: 1px solid white;
+    height: 200px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.vsection1{
+    height: 120px;
+    width: 100%;
+    background-color: teal;
+}
+.vsection2{
+    height: 40px;
+    width: 100%;
+    background-color: tomato;
+}
+.vsection3{
+    height: 40px;
+    width: 100%;
+    background-color: maroon;
+    color: grey;
+}

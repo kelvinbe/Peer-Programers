@@ -1,0 +1,77 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+
+.vidcontainer{
+    top: 80px;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+.controw1{
+    height: 220px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: indigo;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.controw2{
+    height: 220px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: lawngreen;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.controw3{
+    height: 220px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: lightseagreen;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.controw4{
+    height: 220px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: maroon;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.controw5{
+    height: 220px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: olive;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    height: 200px;
+    width: 210px;
+    border: 1px solid red;
+    background-color: darkorange;
+    box-sizing: border-box;
+}
+
