@@ -1,0 +1,61 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+.sidenav{
+    top: 80px;
+    width: 250px;
+    bottom: 0;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+}
+.sidesect1{
+    width: 250px;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sidesect2{
+    width: 250px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sidesect3{
+    width: 250px;
+    height: 50px;
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sidesect4{
+    width: 250px;
+    height: 50px;
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sidesect5{
+    width: 250px;
+    height: 50px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sidesect6{
+    width: 250px;
+    height: 50px;
+    background-color: moccasin;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
