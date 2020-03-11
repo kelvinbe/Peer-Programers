@@ -2,42 +2,84 @@ html, body{
   margin: 0;  
   height: 100%;
 }
-body{
+
+*{
+  list-style: none;
+  text-decoration: none;
+}
+.canvas{
+  top: 0;
+  right: 0;
+  left: 0;
   height: 100%;
-}
-.overallcontainer{
-  top: 81px;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  flex: 1 1 0;
-}
-.container{
-  border: 5px solid black;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  background-color: white;
-  
+  display: block;
+  background-color: hotpink;
+  overflow: scroll;
 }
 
+.container{
+  margin: 20px;
+  width: 100%;
+  padding: 0 16px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.fas{
+  height: 50px;
+  width: 30px;
+}
 .home{
   background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+.span
+
 .search{
+  display: flex;
   flex: 1;
+  top: 0;
+  margin: 0 40px;
+  flex-basis: 1e-09px;
   background-color: brown;
   text-align: center;
   padding: 15px;
 }
+.search input{
+  height: 50%;
+  width: 100%;
+}
 .account{
+  display: flex;
+  align-items: center;
   background-color: cadetblue;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  width: 225px;
+}
+.fas{
+  margin-right: 8px;
+  font-size: 25px;
+  align-self: center;
+}
+.overallcontainer{
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  border: 0;
+  width: 100%;
+  display: block;
 }
 .sidenav{
-  top: 80px;
+  position: fixed;
+  top: 81px;
+  left: -250px;
   width: 250px;
   bottom: 0;
   border: 1px solid green;
@@ -51,46 +93,89 @@ body{
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding: 15px;
-
+  justify-content: center;
+  align-items: center;
 }
-.s
+.sidesect1>ul{
+  padding: 0;
+}
+.sidesect1>ul>li{
+  margin-top: 10px;
+  
+}
+.sidesect1>ul>li>a{
+  color: grey;
+}
 .sidesect2{
   width: 250px;
-  height: 50px;
-
+  height: 250px;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.sidesect2>ul{
+  padding: 0;
+}
+.sidesect2>ul>li{
+  margin-top: 10px;
+}
+.sidesect2>ul>li>a{
+  color: grey;
 }
 .sidesect3{
   width: 250px;
-  height: 50px;
-
+  height: 300px;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.sidesect3>ul>li{
+  margin-top: 10px;
+}
+.sidesect3>ul>li>a{
+  color: grey;
 }
 .sidesect4{
   width: 250px;
   height: 50px;
-
   display: flex;
   flex-direction: column;
   flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.sidesect4>ul{
+  padding: 0;
+}
+.sidesect4>ul>li{
+  margin-top: 10px;
+}
+.sidesect4>ul>li>a{
+  color: grey;
 }
 .sidesect5{
   width: 250px;
   height: 50px;
-
   display: flex;
   flex-direction: column;
   flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.sidesect5>ul{
+  padding: 0;
+}
+.sidesect5>ul>li{
+  margin-top: 10px;
+}
+.sidesect5>ul>li>a{
+  color: grey;
 }
 .sidesect6{
   width: 250px;
   height: 50px;
-
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -98,10 +183,10 @@ body{
 .vidcontainer{
   top: 80px;
   bottom: 0;
+  margin-left: 40px;
   width: 100%;
   border: 1px solid black;
   background-color: whitesmoke;
-
   display: flex;
   flex-direction: column;
   flex: 1 1 0;
@@ -203,5 +288,10 @@ body{
 
   color: grey;
 }
-
+#check:checked ~ .vidcontainer{
+  margin-left: 250px;
+}
+#check:checked ~ .sidenav{ 
+  left: 0;
+}
 
